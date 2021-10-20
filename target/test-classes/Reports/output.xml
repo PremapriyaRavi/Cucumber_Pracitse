@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.842">
+<testcase classname="To validate the login functionality of CrazySales Application" name="To validate the login functionality with invalid credentials" time="0.333">
+<failure message="The driver executable does not exist: C:\Users\PREMA\eclipse-workspace\CucumberExample\Drivers\chromedriver.exe" type="java.lang.IllegalStateException"><![CDATA[Given The user has to be in the CrazySales login page.......................skipped
+When The user fill the username and password................................skipped
+And click login.............................................................skipped
+Then The user should navigate to the invalid login page.....................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\PREMA\eclipse-workspace\CucumberExample\Drivers\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at org.base.BaseClass.launchBrowser(BaseClass.java:14)
+	at org.stepdefinitions.Hooks.beforeScenario1(Hooks.java:16)
+]]></failure>
+</testcase>
+<testcase classname="To validate the login functionality of CrazySales Application" name="To validate the registration functionality" time="0.026">
+<failure message="The driver executable does not exist: C:\Users\PREMA\eclipse-workspace\CucumberExample\Drivers\chromedriver.exe" type="java.lang.IllegalStateException"><![CDATA[Given The user has to be in the CrazySales login page.......................skipped
+When The user fill the "Shobi" and "123456" and "123456"....................skipped
+And click on create new button..............................................skipped
+Then The user registered sucessfully........................................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\PREMA\eclipse-workspace\CucumberExample\Drivers\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at org.base.BaseClass.launchBrowser(BaseClass.java:14)
+	at org.stepdefinitions.Hooks.beforeScenario1(Hooks.java:16)
+]]></failure>
+</testcase>
+</testsuite>

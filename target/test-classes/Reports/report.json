@@ -1,0 +1,211 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "The user has to be in the CrazySales login page",
+            "match": {
+              "location": "org.stepdefinitions.LoginSteps.theUserHasToBeInTheCrazySalesLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-20T10:16:35.407Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: The driver executable does not exist: C:\\Users\\PREMA\\eclipse-workspace\\CucumberExample\\Drivers\\chromedriver.exe\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat org.base.BaseClass.launchBrowser(BaseClass.java:14)\r\n\tat org.stepdefinitions.Hooks.beforeScenario1(Hooks.java:16)\r\n",
+              "duration": 106000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "org.stepdefinitions.Hooks.beforeScenario1()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "To validate the login functionality with invalid credentials",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-crazysales-application;to-validate-the-login-functionality-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat org.stepdefinitions.Hooks.afterScenario1(Hooks.java:27)\r\n",
+              "duration": 5000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "org.stepdefinitions.Hooks.afterScenario1(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "The user fill the username and password",
+            "match": {
+              "location": "org.stepdefinitions.LoginSteps.theUserFillTheUsernameAndPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "click login",
+            "match": {
+              "location": "org.stepdefinitions.LoginSteps.clickLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "The user should navigate to the invalid login page",
+            "match": {
+              "location": "org.stepdefinitions.LoginSteps.theUserShouldNavigateToTheInvalidLoginPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "The user has to be in the CrazySales login page",
+            "match": {
+              "location": "org.stepdefinitions.LoginSteps.theUserHasToBeInTheCrazySalesLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-20T10:16:35.813Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: The driver executable does not exist: C:\\Users\\PREMA\\eclipse-workspace\\CucumberExample\\Drivers\\chromedriver.exe\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat org.base.BaseClass.launchBrowser(BaseClass.java:14)\r\n\tat org.stepdefinitions.Hooks.beforeScenario1(Hooks.java:16)\r\n",
+              "duration": 5000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "org.stepdefinitions.Hooks.beforeScenario1()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "To validate the registration functionality",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-crazysales-application;to-validate-the-registration-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat org.stepdefinitions.Hooks.afterScenario1(Hooks.java:27)\r\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "org.stepdefinitions.Hooks.afterScenario1(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "The user fill the \"Shobi\" and \"123456\" and \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shobi\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 43
+                }
+              ],
+              "location": "org.stepdefinitions.LoginSteps.theUserFillTheAndAnd(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "click on create new button",
+            "match": {
+              "location": "org.stepdefinitions.LoginSteps.clickOnCreateNewButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "The user registered sucessfully",
+            "match": {
+              "location": "org.stepdefinitions.LoginSteps.theUserRegisteredSucessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of CrazySales Application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-crazysales-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]

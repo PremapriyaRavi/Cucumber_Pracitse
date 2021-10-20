@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="87.319">
+<testcase classname="To validate the login functionality of CrazySales Application" name="To validate the login functionality with invalid credentials" time="43.605">
+<system-out><![CDATA[Given The user has to be in the CrazySales login page.......................passed
+When The user fill the username and password................................passed
+And click login.............................................................passed
+Then The user should navigate to the invalid login page.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the login functionality of CrazySales Application" name="To validate the registration functionality" time="43.142">
+<failure message="" type="java.lang.AssertionError"><![CDATA[Given The user has to be in the CrazySales login page.......................passed
+When The user fill the "Shobi" and "123456" and "123456"....................passed
+And click on create new button..............................................passed
+Then The user registered sucessfully........................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.stepdefinitions.LoginSteps.theUserRegisteredSucessfully(LoginSteps.java:54)
+	at ✽.The user registered sucessfully(file:///C:/Users/PREMA/eclipse-workspace/Cucumber_Practice_Junit/src/test/resources/Features/login.feature:14)
+]]></failure>
+</testcase>
+</testsuite>
